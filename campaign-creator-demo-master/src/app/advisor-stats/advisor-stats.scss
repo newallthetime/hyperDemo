@@ -1,0 +1,62 @@
+// .advisor-stats-wrapper {
+//   position: absolute;
+//   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.22);
+//   padding: 18px;
+//   width: 255px;
+//   // add min-height
+//   // border: 1px solid #AAAAAA;
+//   z-index: 99;
+//   background-color: white;
+//   left: 15px;
+//   margin-top: 10px;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+// };
+
+.advisor-stats-wrapper {
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  // margin-top: 55px;
+
+  .advisor-stats-container {
+    width: 800px;
+    background: #fff;
+    margin-left: 450px;
+    
+    .text {
+      padding-left: 25px;
+      display: flex;
+      align-items: flex-end;
+      color: #525252;
+      word-spacing: 20px;
+
+      h1 {
+        margin-right: 16px;
+        font-size: 24px;
+      }
+    }
+
+    .add-remove {
+      // cursor: pointer;
+      background: #fff;
+      position: relative;
+      // top: 240px;
+      left: 35px;
+      display: flex;
+      align-items: center;
+      margin-top: 14px;
+      margin-left: 15px;
+      color: #868686;
+      font-size: 12px;
+      outline: none;
+      // border: 1px solid #585858;
+      // border-radius: 8px;
+      padding: 12px 20px;
+      font-weight: normal;
+      width: 150px;
+    }  
+  }
+}        
